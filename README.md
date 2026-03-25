@@ -1,8 +1,19 @@
 # `🧬 Manbot` Skills Repository
 
-The `🧬 Manbot Skills` repository is a central hub for managing, sharing, and extending a collection of AI-agent skills. Each skill lives in its own directory prefixed with an underscore (`_`), and is described by a Markdown file with front-matter that can be queried by the `Manbot` tooling system.
+## Table of Contents
+- [What is Manbot?](#user-content--what-is-manbot)
+- [Repository Structure](#user-content--repository-structure)
+- [How to Use & Create Skills](#user-content--how-to-use--create-skills)
+- [Skill Anatomy](#user-content--skill-anatomy)
+- [Security & Best Practices](#user-content--security--best-practices)
+- [Adding a New Skill](#user-content--adding-a-new-skill)
+- [License](#user-content--license)
+- [Contribution Guidelines](#user-content--contribution-guidelines)
+- [Documentation](#user-content--documentation)
 
-These skills are specifically designed for the **Manbot AI Agent**, a powerful, local-first platform for complex task execution.
+# `🧬 Manbot` Skills Repository
+
+The `🧬 Manbot Skills` repository is a central hub for managing, sharing, and extending a collection of AI‑agent skills. Each skill lives in its own underscored folder (e.g., `_skill_name/`) with a `SKILL.md` that contains Markdown‑formatted instructions and front‑matter. These Markdown files are queried by the Manbot tooling system so the agent can discover, load, and execute skills automatically.
 
 ## 🧬 What is Manbot?
 
@@ -64,3 +75,19 @@ The tool will automatically:
 1. Download the Markdown file.
 2. Create a folder prefixed with an underscore (`_`) based on the skill name.
 3. Place the `SKILL.md` inside that folder, making it immediately available to the Manbot agent.
+
+## 📄 License
+
+This repository is distributed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## 🤝 Contribution Guidelines
+
+- Fork the repository and create a new branch for your skill.
+- Follow the **Skill Anatomy** section when writing a new skill.
+- Commit and push the new skill folder and its `SKILL.md`.
+- Submit a pull request for review.
+- Ensure your changes are documented in the README.
+
+## 📚 Documentation
+
+Additional documentation can be found in the `docs/` folder of this repository. Feel free to add new markdown files or update existing ones.
