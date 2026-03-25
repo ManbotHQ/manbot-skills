@@ -8,10 +8,7 @@
     "lint": "echo 'linting...'",
     "test": "echo 'testing...'"
   },
-  "dependencies": {
-    "pi-memory-md": "^2.3.0",
-    "pi-playwright": "^2.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "jest": "^29.0.0"
   }
