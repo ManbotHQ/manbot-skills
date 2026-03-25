@@ -8,4 +8,4 @@ dist/
 *.log
 
 # GitHub Actions logs
-.github/workflows/
+# .github/workflows/
