@@ -33,7 +33,7 @@ jobs:
           for file in $(find . -type f -name 'SKILL.md'); do
             echo "→ Checking $file"
             first_line=$(head -n1 "$file")
-            if [[ "$first_line" =~ ^([> ])?Description: ]]; then
+            if [[ "$first_line" =~ ^(>\ )?[Dd]escription: ]]; then
               echo "✓ $file starts correctly"
             else
               echo "✘ $file does NOT start with a Description line" >&2
