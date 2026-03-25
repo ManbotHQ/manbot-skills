@@ -11,8 +11,6 @@
 - [Contribution Guidelines](#user-content--contribution-guidelines)
 - [Documentation](#user-content--documentation)
 
-# `🧬 Manbot` Skills Repository
-
 The `🧬 Manbot Skills` repository is a central hub for managing, sharing, and extending a collection of AI‑agent skills. Each skill lives in its own underscored folder (e.g., `_skill_name/`) with a `SKILL.md` that contains Markdown‑formatted instructions and front‑matter. These Markdown files are queried by the Manbot tooling system so the agent can discover, load, and execute skills automatically.
 
 ## 🧬 What is Manbot?
