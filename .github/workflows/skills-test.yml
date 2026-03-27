@@ -12,7 +12,8 @@ on:
 jobs:
   test-skill-files:
     runs-on: ubuntu-latest
-    fail-fast: false
+    strategy:
+      fail-fast: false
 
     steps:
       - name: Checkout repository
