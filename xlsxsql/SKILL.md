@@ -12,7 +12,7 @@ This tool is ideal for:
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 Verify is `xlsxsql` is installed, if no install it:
 
@@ -28,7 +28,7 @@ or ask your human to help.
 
 ---
 
-## 🧠 When to use this skill
+## When to use this skill
 
 Use `xlsxsql` if:
 - You need structured data extraction (SQL)
@@ -43,7 +43,7 @@ DO NOT use this tool if:
 
 ---
 
-## 🚀 Core Capabilities
+## Core Capabilities
 
 - Execute SQL queries on `.xlsx` files  
 - Supports joins across files (CSV, JSON, etc.)  
@@ -54,7 +54,7 @@ The tool is built on top of SQL engines and Excel parsers, enabling SQL-style ac
 
 ---
 
-## 🚀 Basic Usage
+## Basic Usage
 
 ### List sheets
 ```bash
@@ -78,7 +78,7 @@ xlsxsql query "SELECT name, age FROM file.xlsx WHERE age > 30"
 
 ---
 
-## 🧩 Agent Workflow
+## Agent Workflow
 
 Follow this process:
 
@@ -124,7 +124,7 @@ xlsxsql query --out JSON "SELECT * FROM file.xlsx"
 
 ---
 
-## 🔁 Output Options
+## Output Options
 
 Supported formats:
 - CSV
@@ -149,7 +149,7 @@ xlsxsql query --out YAML "SELECT * FROM file.xlsx"
 
 ---
 
-## 🧠 Best Practices
+## Best Practices
 
 - Always preview with `LIMIT`
 - Normalize headers before querying
@@ -158,7 +158,7 @@ xlsxsql query --out YAML "SELECT * FROM file.xlsx"
 
 ---
 
-## 🧾 Example Agent Task
+## Example Agent Task
 
 User: "Find all users older than 30 and group them by country"
 
