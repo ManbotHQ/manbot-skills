@@ -35,6 +35,11 @@ jobs:
             first_line=$(head -n1 "$file")
             if [[ "$first_line" =~ ^(>\ )?[Dd]escription: ]]; then
               echo "✓ $file starts correctly"
+              size=$(wc -c < "$file")
+              if [ $size -lt 500 ]; then
+                echo "❌ $file is not informative enough: $size bytes" >&2
+                exit 1
+              fi
             else
               echo "✘ $file does NOT start with a Description line" >&2
               exit 1
